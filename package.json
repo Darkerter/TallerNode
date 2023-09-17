@@ -4,7 +4,12 @@
   "description": "An API REST using express.js",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darkerter/TallerNode.git"
   },
   "keywords": [
     "API",
@@ -14,6 +19,10 @@
   ],
   "author": "Angel",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Darkerter/TallerNode/issues"
+  },
+  "homepage": "https://github.com/Darkerter/TallerNode/blob/main/README.md",
   "dependencies": {
     "express": "^4.18.2"
   }
