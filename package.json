@@ -25,6 +25,7 @@
   "homepage": "https://github.com/Darkerter/TallerNode/blob/main/README.md",
   "dependencies": {
     "express": "^4.18.2",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1"
   }
 }
