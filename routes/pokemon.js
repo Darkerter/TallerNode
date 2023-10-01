@@ -14,7 +14,9 @@ pokemon.get('/', async(req,res,next)=>{
  
 pokemon.post("/", async(req,res,next)=>{
     const {pok_name,pok_height,pok_weight,pok_base_experience} = req.body;
+
     if(pok_base_experience && pok_height && pok_name && pok_weight){
+        
         let query = "INSERT INTO pokemon (pok_name, pok_height, pok_weight, pok_base_experience)";
         query += `VALUES('${pok_name}',${pok_height},${pok_weight},${pok_base_experience})`;
         
